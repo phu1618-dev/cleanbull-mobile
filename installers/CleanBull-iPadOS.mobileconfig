@@ -426,9 +426,9 @@
     </dict>
   </array>
   <key>PayloadDescription</key>
-  <string>Bộ cài đặt 1-Chạm cho iPadOS: Tích hợp cả Ứng dụng CleanBull Toàn màn hình trên Màn hình chính VÀ Khiên Chống Theo Dõi DNS Mã hóa toàn hệ thống.</string>
+  <string>Bộ cài đặt cho iPadOS: Tích hợp cả Ứng dụng CleanBull Toàn màn hình trên Màn hình chính VÀ Khiên Chống Theo Dõi DNS Mã hóa toàn hệ thống.</string>
   <key>PayloadDisplayName</key>
-  <string>CleanBull Mobile &amp; VPN Shield (Bộ cài iPadOS 1-Chạm)</string>
+  <string>CleanBull Mobile &amp; VPN Shield (Bộ cài iPadOS)</string>
   <key>PayloadIdentifier</key>
   <string>com.cleanbull.mobile.allinone</string>
   <key>PayloadOrganization</key>
