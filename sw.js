@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cleanbull-pwa-v4.2.0';
+const CACHE_NAME = 'cleanbull-pwa-v4.4.0';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -39,9 +39,10 @@ self.addEventListener('fetch', (event) => {
   if (req.method !== 'GET') return;
 
   const url = new URL(req.url);
-  // Không lưu cache các request đo RTT ping thật hoặc API động
+  // Không lưu cache các request đo RTT ping thật, version OTA hoặc API động
   if (
     url.pathname.includes('/api/') ||
+    url.pathname.endsWith('version.json') ||
     url.hostname.includes('amazonaws.com') ||
     url.hostname.includes('cloudflare') ||
     url.hostname.includes('1.1.1.1') ||
